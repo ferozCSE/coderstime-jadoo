@@ -30,12 +30,14 @@
         <!-- wp:group {"className":"category-heading","style":{"spacing":{"margin":{"bottom":"28px"}}},"layout":{"type":"constrained"}} -->
         <div class="wp-block-group category-heading" style="margin-bottom:28px">
             <!-- wp:heading {"textAlign":"center","level":6,"fontSize":"medium"} -->
-            <h6 class="wp-block-heading has-text-align-center has-medium-font-size">CATEGORY</h6>
+            <h6 class="wp-block-heading has-text-align-center has-medium-font-size">
+                <?php esc_html_e( 'CATEGORY', 'coderstime-jadoo' ); ?></h6>
             <!-- /wp:heading -->
 
             <!-- wp:heading {"textAlign":"center","level":3,"style":{"spacing":{"padding":{"left":"0"},"margin":{"left":"0"}},"typography":{"fontSize":"45px"}}} -->
-            <h3 class="wp-block-heading has-text-align-center" style="margin-left:0;padding-left:0;font-size:45px">We
-                Offer Best Services</h3>
+            <h3 class="wp-block-heading has-text-align-center" style="margin-left:0;padding-left:0;font-size:45px">
+                <?php esc_html_e( 'We Offer Best Services', 'coderstime-jadoo' ); ?>
+            </h3>
             <!-- /wp:heading -->
         </div>
         <!-- /wp:group -->
@@ -71,13 +73,16 @@
                         <div class="wp-block-group">
                             <!-- wp:heading {"textAlign":"center","level":3,"className":"image-section","style":{"color":{"text":"#1f2937"},"elements":{"link":{"color":{"text":"#1f2937"}}},"typography":{"fontSize":"30px"}}} -->
                             <h3 class="wp-block-heading has-text-align-center image-section has-text-color has-link-color"
-                                style="color:#1f2937;font-size:30px"><strong>Calculated Weather</strong></h3>
+                                style="color:#1f2937;font-size:30px">
+                                <strong><?php esc_html_e( 'Calculated Weather', 'coderstime-jadoo' ); ?></strong>
+                            </h3>
                             <!-- /wp:heading -->
 
                             <!-- wp:paragraph {"align":"center","style":{"color":{"text":"#4b5563"},"elements":{"link":{"color":{"text":"#4b5563"}}},"spacing":{"margin":{"top":"0.75rem"}}},"fontSize":"medium"} -->
                             <p class="has-text-align-center has-text-color has-link-color has-medium-font-size"
-                                style="color:#4b5563;margin-top:0.75rem">Built Wicket longer admire do Barton vanity
-                                itself do in it.</p>
+                                style="color:#4b5563;margin-top:0.75rem">
+                                <?php esc_html_e( 'Built Wicket longer admire do Barton vanity itself do in it.', 'coderstime-jadoo' ); ?>
+                            </p>
                             <!-- /wp:paragraph -->
                         </div>
                         <!-- /wp:group -->
@@ -113,13 +118,18 @@
                         <div class="wp-block-group">
                             <!-- wp:heading {"textAlign":"center","level":3,"className":"image-section","style":{"color":{"text":"#1f2937"},"elements":{"link":{"color":{"text":"#1f2937"}}},"typography":{"fontSize":"30px"}}} -->
                             <h3 class="wp-block-heading has-text-align-center image-section has-text-color has-link-color"
-                                style="color:#1f2937;font-size:30px"><strong><strong>Best Flights</strong></strong></h3>
+                                style="color:#1f2937;font-size:30px">
+                                <strong><strong><?php esc_html_e( 'Best Flights', 'coderstime-jadoo' ); ?>
+                                    </strong></strong>
+                            </h3>
                             <!-- /wp:heading -->
 
                             <!-- wp:paragraph {"align":"center","style":{"color":{"text":"#4b5563"},"elements":{"link":{"color":{"text":"#4b5563"}}},"spacing":{"margin":{"top":"0.75rem"}}},"fontSize":"medium"} -->
                             <p class="has-text-align-center has-text-color has-link-color has-medium-font-size"
-                                style="color:#4b5563;margin-top:0.75rem">Engrossed listening. Park gate sell they west
-                                hard for the.</p>
+                                style="color:#4b5563;margin-top:0.75rem">
+                                <?php esc_html_e( 'Engrossed listening. Park gate sell they west hard for the.', 'coderstime-jadoo' ); ?>
+
+                            </p>
                             <!-- /wp:paragraph -->
                         </div>
                         <!-- /wp:group -->
@@ -155,13 +165,16 @@
                         <div class="wp-block-group">
                             <!-- wp:heading {"textAlign":"center","level":3,"className":"image-section","style":{"color":{"text":"#1f2937"},"elements":{"link":{"color":{"text":"#1f2937"}}},"typography":{"fontSize":"30px"}}} -->
                             <h3 class="wp-block-heading has-text-align-center image-section has-text-color has-link-color"
-                                style="color:#1f2937;font-size:30px"><strong>Local Events</strong></h3>
+                                style="color:#1f2937;font-size:30px">
+                                <strong><?php esc_html_e( 'Local Events', 'coderstime-jadoo' ); ?></strong>
+                            </h3>
                             <!-- /wp:heading -->
 
                             <!-- wp:paragraph {"align":"center","style":{"color":{"text":"#4b5563"},"elements":{"link":{"color":{"text":"#4b5563"}}},"spacing":{"margin":{"top":"0.75rem"}}},"fontSize":"medium"} -->
                             <p class="has-text-align-center has-text-color has-link-color has-medium-font-size"
-                                style="color:#4b5563;margin-top:0.75rem">Barton vanity itself do in it. Prefer to men it
-                                engrossed listening.</p>
+                                style="color:#4b5563;margin-top:0.75rem">
+                                <?php esc_html_e( 'Barton vanity itself do in it. Prefer to men it engrossed listening.', 'coderstime-jadoo' ); ?>
+                            </p>
                             <!-- /wp:paragraph -->
                         </div>
                         <!-- /wp:group -->
@@ -197,13 +210,16 @@
                         <div class="wp-block-group">
                             <!-- wp:heading {"textAlign":"center","level":3,"className":"image-section","style":{"color":{"text":"#1f2937"},"elements":{"link":{"color":{"text":"#1f2937"}}},"typography":{"fontSize":"30px"}}} -->
                             <h3 class="wp-block-heading has-text-align-center image-section has-text-color has-link-color"
-                                style="color:#1f2937;font-size:30px"><strong>Customization</strong></h3>
+                                style="color:#1f2937;font-size:30px">
+                                <strong><?php esc_html_e( 'Customization', 'coderstime-jadoo' ); ?></strong>
+                            </h3>
                             <!-- /wp:heading -->
 
                             <!-- wp:paragraph {"align":"center","style":{"color":{"text":"#4b5563"},"elements":{"link":{"color":{"text":"#4b5563"}}},"spacing":{"margin":{"top":"0.75rem"}}},"fontSize":"medium"} -->
                             <p class="has-text-align-center has-text-color has-link-color has-medium-font-size"
-                                style="color:#4b5563;margin-top:0.75rem">We deliver outsourced aviation services for
-                                military customers</p>
+                                style="color:#4b5563;margin-top:0.75rem">
+                                <?php esc_html_e( 'We deliver outsourced aviation services for military customers', 'coderstime-jadoo' ); ?>
+                            </p>
                             <!-- /wp:paragraph -->
                         </div>
                         <!-- /wp:group -->

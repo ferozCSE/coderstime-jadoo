@@ -28,12 +28,13 @@
                         <!-- wp:paragraph {"align":"left","style":{"color":{"text":"#5e6282"},"elements":{"link":{"color":{"text":"#5e6282"}}},"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"margin":{"top":"3rem","right":"0rem","bottom":"0rem","left":"0rem"}}}} -->
                         <p class="has-text-align-left has-text-color has-link-color"
                             style="color:#5e6282;margin-top:3rem;margin-right:0rem;margin-bottom:0rem;margin-left:0rem;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
-                            Easy and Fast</p>
+                            <?php esc_html_e( 'Easy and Fast', 'coderstime-jadoo' ); ?></p>
                         <!-- /wp:paragraph -->
 
                         <!-- wp:heading {"textAlign":"left","level":3,"style":{"typography":{"fontSize":"48px"}}} -->
-                        <h3 class="wp-block-heading has-text-align-left" style="font-size:48px"> Book your next trip in
-                            3 easy steps</h3>
+                        <h3 class="wp-block-heading has-text-align-left" style="font-size:48px">
+                            <?php esc_html_e( 'Book your next trip in 3 easy steps', 'coderstime-jadoo' ); ?>
+                        </h3>
                         <!-- /wp:heading -->
 
                         <!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"bottom":"3rem"}}},"layout":{"type":"constrained"}} -->
@@ -56,11 +57,14 @@
                                     <div class="wp-block-column" style="flex-basis:80%">
                                         <!-- wp:heading {"level":6,"style":{"spacing":{"padding":{"bottom":"0rem"}}},"fontSize":"medium"} -->
                                         <h6 class="wp-block-heading has-medium-font-size" style="padding-bottom:0rem">
-                                            Choose Destination</h6>
+                                            <?php esc_html_e( 'Choose Destination', 'coderstime-jadoo' ); ?>
+                                        </h6>
                                         <!-- /wp:heading -->
 
                                         <!-- wp:paragraph -->
-                                        <p>Choose your favorite place. No matter<br>where you travel inside the World.
+                                        <p><?php esc_html_e( 'Choose your favorite place. No matter', 'coderstime-jadoo' ); ?>
+                                            <br><?php esc_html_e( 'where you travel inside the World.', 'coderstime-jadoo' ); ?>
+
                                         </p>
                                         <!-- /wp:paragraph -->
                                     </div>
@@ -87,13 +91,16 @@
                                     <!-- wp:column {"width":"80%"} -->
                                     <div class="wp-block-column" style="flex-basis:80%">
                                         <!-- wp:heading {"level":6,"style":{"spacing":{"padding":{"left":"0"}}},"fontSize":"medium"} -->
-                                        <h6 class="wp-block-heading has-medium-font-size" style="padding-left:0">Make
-                                            Payment</h6>
+                                        <h6 class="wp-block-heading has-medium-font-size" style="padding-left:0">
+                                            <?php esc_html_e( 'Make Payment', 'coderstime-jadoo' ); ?>
+                                        </h6>
                                         <!-- /wp:heading -->
 
                                         <!-- wp:paragraph {"align":"left"} -->
-                                        <p class="has-text-align-left">After find your perfect spot, make
-                                            your<br>payment and get ready to travel.</p>
+                                        <p class="has-text-align-left">
+                                            <?php esc_html_e( 'After find your perfect spot, make your', 'coderstime-jadoo' ); ?>
+                                            <br><?php esc_html_e( 'payment and get ready to travel.', 'coderstime-jadoo' ); ?>
+                                        </p>
                                         <!-- /wp:paragraph -->
                                     </div>
                                     <!-- /wp:column -->
@@ -119,13 +126,16 @@
                                     <!-- wp:column {"width":"80%"} -->
                                     <div class="wp-block-column" style="flex-basis:80%">
                                         <!-- wp:heading {"level":6,"style":{"spacing":{"padding":{"left":"0"}}},"fontSize":"medium"} -->
-                                        <h6 class="wp-block-heading has-medium-font-size" style="padding-left:0">Reach
-                                            Airport on Selected Date</h6>
+                                        <h6 class="wp-block-heading has-medium-font-size" style="padding-left:0">
+                                            <?php esc_html_e( 'Reach Airport on Selected Date', 'coderstime-jadoo' ); ?>
+                                        </h6>
                                         <!-- /wp:heading -->
 
                                         <!-- wp:paragraph {"align":"left"} -->
-                                        <p class="has-text-align-left">Lastly, you have to arrive at the airport<br>on
-                                            time and enjoy the vacation.</p>
+                                        <p class="has-text-align-left">
+                                            <?php esc_html_e( 'Lastly, you have to arrive at the airport', 'coderstime-jadoo' ); ?>
+                                            <br><?php esc_html_e( 'on time and enjoy the vacation.', 'coderstime-jadoo' ); ?>
+                                        </p>
                                         <!-- /wp:paragraph -->
                                     </div>
                                     <!-- /wp:column -->
@@ -165,13 +175,15 @@
                                 <div class="wp-block-group has-base-background-color has-background"
                                     style="margin-top:0;margin-bottom:0;padding-top:1.4rem;padding-right:1.4rem;padding-bottom:1.4rem;padding-left:1.4rem">
                                     <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"medium"} -->
-                                    <p class="has-medium-font-size" style="font-style:normal;font-weight:700">Trip To
-                                        Greece</p>
+                                    <p class="has-medium-font-size" style="font-style:normal;font-weight:700">
+                                        <?php esc_html_e( 'Trip To Greece', 'coderstime-jadoo' ); ?>
+                                    </p>
                                     <!-- /wp:paragraph -->
 
                                     <!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
-                                    <p style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">14-29 June
-                                        | by Robbin joseph</p>
+                                    <p style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+                                        <?php esc_html_e( '14-29 June | by Robbin joseph', 'coderstime-jadoo' ); ?>
+                                    </p>
                                     <!-- /wp:paragraph -->
 
                                     <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -186,7 +198,8 @@
                                                     class="wp-block-image size-full is-resized has-custom-border is-style-rounded easy-icon">
                                                     <img src="http://localhost/wp-content/uploads/2025/06/leaf.png"
                                                         alt="" class="wp-image-5395"
-                                                        style="border-radius:50px;width:20px;height:auto" /></figure>
+                                                        style="border-radius:50px;width:20px;height:auto" />
+                                                </figure>
                                                 <!-- /wp:image -->
                                             </div>
                                             <!-- /wp:group -->
@@ -226,7 +239,7 @@
                                             <!-- /wp:image -->
 
                                             <!-- wp:paragraph -->
-                                            <p>24 people going</p>
+                                            <p><?php esc_html_e( '24 people going', 'coderstime-jadoo' ); ?></p>
                                             <!-- /wp:paragraph -->
 
                                             <!-- wp:image {"id":5410,"sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"left":"9.5rem"}}}} -->

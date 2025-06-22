@@ -21,11 +21,13 @@
         <div class="wp-block-group" style="margin-bottom:28px">
             <!-- wp:heading {"level":6,"className":"has-text-align-center","style":{"color":{"text":"#5e6282"},"elements":{"link":{"color":{"text":"#5e6282"}}}}} -->
             <h6 class="wp-block-heading has-text-align-center has-text-color has-link-color" style="color:#5e6282">
-                Testimonials</h6>
+                <?php esc_html_e( 'Testimonials', 'coderstime-jadoo' ); ?>
+            </h6>
             <!-- /wp:heading -->
 
             <!-- wp:heading {"level":3,"className":"has-text-align-center","style":{"typography":{"fontStyle":"normal","fontWeight":"700"}}} -->
-            <h3 class="wp-block-heading has-text-align-center" style="font-style:normal;font-weight:700">What people say
+            <h3 class="wp-block-heading has-text-align-center" style="font-style:normal;font-weight:700">
+                <?php esc_html_e( 'Testimonials', 'coderstime-jadoo' ); ?>What people say
                 about Us.</h3>
             <!-- /wp:heading -->
         </div>
@@ -53,8 +55,9 @@
                                     style="background-color:#fff3db;border-radius:5px 5px 5px 5px;border:2px solid #ff944d">
                                     <span class="quote-icon top-quote" style="color:#ff944d">“</span>
                                     <div class="testimonial-content">
-                                        <blockquote style="color:#5a2a00">On the Windows talking painted pasture express
-                                            parties use. Sure last upon he same as k next. Of believed or diverted no.
+                                        <blockquote style="color:#5a2a00">
+                                            <?php esc_html_e( 'On the Windows talking painted pasture express parties use. Sure last upon he same as k next. Of believed or diverted no.', 'coderstime-jadoo' ); ?>
+
                                         </blockquote>
                                     </div>
                                     <div class="testimonial-author">
@@ -62,10 +65,13 @@
                                         <figure
                                             class="wp-block-image aligncenter size-full is-resized simpletestimonial">
                                             <img src="http://localhost/wp-content/uploads/2025/06/author-1.png" alt=""
-                                                class="wp-image-5511" style="width:72px;height:auto" /></figure>
+                                                class="wp-image-5511" style="width:72px;height:auto" />
+                                        </figure>
                                         <!-- /wp:image -->
                                         <div class="author-info"><span class="author-name"><cite
-                                                    style="color:#7b3f00">Mike Taylor<br>Lahore, Pakistan</cite></span>
+                                                    style="color:#7b3f00"><?php esc_html_e( 'Mike Taylor', 'coderstime-jadoo' ); ?>
+                                                    <br><?php esc_html_e( 'Lahore, Pakistan', 'coderstime-jadoo' ); ?>
+                                                </cite></span>
                                             <div class="rating"><span style="color:#ff9900">★★★★★</span></div>
                                         </div>
                                     </div><span class="quote-icon bottom-quote" style="color:#ff944d">”</span>
@@ -97,8 +103,9 @@
                                     style="background-color:#f0ffe0;border-radius:5px 5px 5px 5px;border:2px solid #4caf50">
                                     <span class="quote-icon top-quote" style="color:#4caf50">“</span>
                                     <div class="testimonial-content">
-                                        <blockquote style="color:#1b3e1f">On the Windows talking painted pasture express
-                                            parties use. Sure last upon he same as k next. Of believed or diverted no.
+                                        <blockquote style="color:#1b3e1f">
+                                            <?php esc_html_e( 'On the Windows talking painted pasture express parties use. Sure last upon he same as k next. Of believed or diverted no.', 'coderstime-jadoo' ); ?>
+
                                         </blockquote>
                                     </div>
                                     <div class="testimonial-author">
@@ -106,11 +113,13 @@
                                         <figure
                                             class="wp-block-image aligncenter size-full is-resized simpletestimonial">
                                             <img src="http://localhost/wp-content/uploads/2025/06/author3.png" alt=""
-                                                class="wp-image-5513" style="width:72px;height:auto" /></figure>
+                                                class="wp-image-5513" style="width:72px;height:auto" />
+                                        </figure>
                                         <!-- /wp:image -->
                                         <div class="author-info"><span class="author-name"><cite
-                                                    style="color:#2d6a2d">Thomas Wagon<br>CEO of Red
-                                                    Button</cite></span>
+                                                    style="color:#2d6a2d"><?php esc_html_e( 'Thomas Wagon', 'coderstime-jadoo' ); ?>
+                                                    <br><?php esc_html_e( 'CEO of Red Button', 'coderstime-jadoo' ); ?>
+                                                </cite></span>
                                             <div class="rating"><span style="color:#66bb6a">★★★★★</span></div>
                                         </div>
                                     </div><span class="quote-icon bottom-quote" style="color:#4caf50">”</span>
@@ -142,8 +151,9 @@
                                     style="background-color:#e6f3ff;border-radius:5px 5px 5px 5px;border:2px solid #3399ff">
                                     <span class="quote-icon top-quote" style="color:#2e87df">“</span>
                                     <div class="testimonial-content">
-                                        <blockquote style="color:#003a66">On the Windows talking painted pasture express
-                                            parties use. Sure last upon he same as k next. Of believed or diverted no.
+                                        <blockquote style="color:#003a66">
+                                            <?php esc_html_e( 'On the Windows talking painted pasture express parties use. Sure last upon he same as k next. Of believed or diverted no.', 'coderstime-jadoo' ); ?>
+
                                         </blockquote>
                                     </div>
                                     <div class="testimonial-author">
@@ -151,11 +161,13 @@
                                         <figure
                                             class="wp-block-image aligncenter size-full is-resized simpletestimonial">
                                             <img src="http://localhost/wp-content/uploads/2025/06/author2.png" alt=""
-                                                class="wp-image-5514" style="width:72px;height:auto" /></figure>
+                                                class="wp-image-5514" style="width:72px;height:auto" />
+                                        </figure>
                                         <!-- /wp:image -->
                                         <div class="author-info"><span class="author-name"><cite
-                                                    style="color:#005fa3">Kelly William<br>Westralia,
-                                                    Sydney</cite></span>
+                                                    style="color:#005fa3"><?php esc_html_e( 'Kelly William', 'coderstime-jadoo' ); ?>
+                                                    <br><?php esc_html_e( 'Westralia, Sydney', 'coderstime-jadoo' ); ?>
+                                                </cite></span>
                                             <div class="rating"><span style="color:#2e87df">★★★★★</span></div>
                                         </div>
                                     </div><span class="quote-icon bottom-quote" style="color:#2e87df">”</span>

@@ -28,8 +28,9 @@
     <!-- wp:group {"layout":{"type":"constrained"}} -->
     <div class="wp-block-group">
         <!-- wp:paragraph {"style":{"typography":{"fontSize":"30px"},"color":{"text":"#5e6282"},"elements":{"link":{"color":{"text":"#5e6282"}}},"spacing":{"margin":{"top":"2rem"}}}} -->
-        <p class="has-text-color has-link-color" style="color:#5e6282;margin-top:2rem;font-size:30px">Subscribe to get
-            information, latest news and other interesting offers about Cobham</p>
+        <p class="has-text-color has-link-color" style="color:#5e6282;margin-top:2rem;font-size:30px">
+            <?php esc_html_e( 'Subscribe to get information, latest news and other interesting offers about Cobham', 'coderstime-jadoo' ); ?>
+        </p>
         <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
@@ -43,7 +44,8 @@
                 <!-- wp:paragraph {"align":"center","className":"input-field","style":{"elements":{"link":{"color":{"text":"#5e6282"}}},"spacing":{"padding":{"top":"0.5rem","bottom":"0.5rem","left":"1rem","right":"1rem"}},"border":{"radius":"0.38rem"},"color":{"text":"#5e6282"},"typography":{"fontSize":"18px"}},"backgroundColor":"base"} -->
                 <p class="has-text-align-center input-field has-base-background-color has-text-color has-background has-link-color"
                     style="border-radius:0.38rem;color:#5e6282;padding-top:0.5rem;padding-right:1rem;padding-bottom:0.5rem;padding-left:1rem;font-size:18px">
-                    you@example.com</p>
+                    <?php esc_html_e( 'you@example.com', 'coderstime-jadoo' ); ?>
+                </p>
                 <!-- /wp:paragraph -->
 
                 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
@@ -51,7 +53,7 @@
                     <!-- wp:button {"textAlign":"left","textColor":"base","className":"footer-btn","style":{"typography":{"writingMode":"horizontal-tb","fontSize":"16px"},"color":{"background":"#2563eb"},"spacing":{"padding":{"left":"1rem","right":"1rem","top":"0.5rem","bottom":"0.5rem"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"border":{"radius":"0.5rem"}}} -->
                     <div class="wp-block-button footer-btn" style="writing-mode:horizontal-tb"><a
                             class="wp-block-button__link has-base-color has-text-color has-background has-link-color has-text-align-left has-custom-font-size wp-element-button"
-                            style="border-radius:0.5rem;background-color:#2563eb;padding-top:0.5rem;padding-right:1rem;padding-bottom:0.5rem;padding-left:1rem;font-size:16px">Subscribe</a>
+                            style="border-radius:0.5rem;background-color:#2563eb;padding-top:0.5rem;padding-right:1rem;padding-bottom:0.5rem;padding-left:1rem;font-size:16px"><?php esc_html_e( 'Subscribe', 'coderstime-jadoo' ); ?></a>
                     </div>
                     <!-- /wp:button -->
                 </div>

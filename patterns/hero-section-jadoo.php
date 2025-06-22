@@ -33,8 +33,8 @@
                         <div class="wp-block-column is-vertically-aligned-center">
                             <!-- wp:paragraph {"style":{"color":{"text":"#df6951"},"elements":{"link":{"color":{"text":"#df6951"}}},"spacing":{"padding":{"top":"2rem"}}},"fontSize":"medium"} -->
                             <p class="has-text-color has-link-color has-medium-font-size"
-                                style="color:#df6951;padding-top:2rem"><?php esc_html_e( 'Best
-            Destinations around the world', 'coderstime-jadoo' ); ?></p>
+                                style="color:#df6951;padding-top:2rem">
+                                <?php esc_html_e( 'Best Destinations around the world', 'coderstime-jadoo' ); ?></p>
                             <!-- /wp:paragraph -->
 
                             <!-- wp:heading {"level":1,"className":"wp-block-heading","style":{"typography":{"fontSize":"5.2rem","lineHeight":"1.1"}},"textColor":"text-primary"} -->
@@ -50,8 +50,7 @@
 
                             <!-- wp:paragraph {"style":{"color":{"text":"#5e6282"}},"fontSize":"medium"} -->
                             <p class="has-text-color has-medium-font-size" style="color:#5e6282">
-                                <?php esc_html_e( 'Built Wicket longer admire do barton vanity
-            itself do in it.<br>Preferred to sportsmen it engrossed listening. Park gate<br>sell they west hard for the.', 'coderstime-jadoo' ); ?>
+                                <?php esc_html_e( 'Built Wicket longer admire do barton vanity itself do in it.<br>Preferred to sportsmen it engrossed listening. Park gate<br>sell they west hard for the.', 'coderstime-jadoo' ); ?>
                             </p>
                             <!-- /wp:paragraph -->
 
@@ -66,8 +65,8 @@
                                     <!-- wp:button {"className":"hero-section-btn","style":{"color":{"background":"#cd8c01"}}} -->
                                     <div class="wp-block-button hero-section-btn"><a
                                             class="wp-block-button__link has-background wp-element-button"
-                                            style="background-color:#cd8c01"><?php esc_html_e( 'Find Out
-                        More', 'coderstime-jadoo' ); ?></a></div>
+                                            style="background-color:#cd8c01"><?php esc_html_e( 'Find Out More', 'coderstime-jadoo' ); ?></a>
+                                    </div>
                                     <!-- /wp:button -->
                                 </div>
                                 <!-- /wp:buttons -->

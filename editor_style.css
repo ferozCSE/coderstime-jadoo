@@ -338,6 +338,9 @@
   color: #002952;
   transition: all 0.4s ease-in-out;
 }
+.wp-block-necessary-block-simple-testimonial .top-quote {
+  padding-top: 15px;
+}
 
 .footer-list-items {
   list-style: none;
