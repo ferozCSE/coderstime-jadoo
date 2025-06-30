@@ -21,12 +21,13 @@
         <!-- wp:heading {"textAlign":"center","className":"mt-40","style":{"typography":{"fontSize":"36px","fontWeight":"700","fontStyle":"normal"},"spacing":{"margin":{"bottom":"16px"}}},"textColor":"black"} -->
         <h2 class="wp-block-heading has-text-align-center mt-40 has-black-color has-text-color"
             style="margin-bottom:16px;font-size:36px;font-style:normal;font-weight:700">
-            <?php esc_html_e( 'Powerful Tools', 'ct-startup' ); ?></h2>
+            <?php esc_html_e( 'Powerful Tools', 'ct-tailwind-theme' ); ?></h2>
         <!-- /wp:heading -->
 
         <!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"18px"},"spacing":{"margin":{"bottom":"40px"}}},"textColor":"gray"} -->
         <p class="has-text-align-center has-gray-color has-text-color" style="margin-bottom:40px;font-size:18px">
-            <?php esc_html_e( 'We built the best tools to elevate your marketing efforts.', 'ct-startup' ); ?></p>
+            <?php esc_html_e( 'We built the best tools to elevate your marketing efforts.', 'ct-tailwind-theme' ); ?>
+        </p>
         <!-- /wp:paragraph -->
 
         <!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"top":"0","left":"var:preset|spacing|20"}}}} -->
@@ -51,7 +52,7 @@
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"14px"},"spacing":{"margin":{"bottom":"0"}}},"textColor":"gray"} -->
                 <p class="has-text-align-center has-gray-color has-text-color" style="margin-bottom:0;font-size:14px">
-                    <?php esc_html_e( 'Vestibulum ullamcorper, odio sed rhoncus imperdiet, enim elit sollicitudin orci, eget dictum leo mi nec lectus. Nam commodo turpis id lectus scelerisque vulputate.', 'ct-startup' ); ?>
+                    <?php esc_html_e( 'Vestibulum ullamcorper, odio sed rhoncus imperdiet, enim elit sollicitudin orci, eget dictum leo mi nec lectus. Nam commodo turpis id lectus scelerisque vulputate.', 'ct-tailwind-theme' ); ?>
                 </p>
                 <!-- /wp:paragraph -->
             </div>
@@ -72,12 +73,12 @@
                 <!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"fontSize":"20px","fontWeight":"700","fontStyle":"normal"},"spacing":{"margin":{"top":"16px","bottom":"8px"}}},"textColor":"black"} -->
                 <h3 class="wp-block-heading has-text-align-center has-black-color has-text-color"
                     style="margin-top:16px;margin-bottom:8px;font-size:20px;font-style:normal;font-weight:700">
-                    <?php esc_html_e( 'Schedule', 'ct-startup' ); ?></h3>
+                    <?php esc_html_e( 'Schedule', 'ct-tailwind-theme' ); ?></h3>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"14px"},"spacing":{"margin":{"bottom":"0"}}},"textColor":"gray"} -->
                 <p class="has-text-align-center has-gray-color has-text-color" style="margin-bottom:0;font-size:14px">
-                    <?php esc_html_e( 'Vestibulum ullamcorper, odio sed rhoncus imperdiet, enim elit sollicitudin orci, eget dictum leo minec lectus. Nam commodo turpis id lectus scelerisque vulputate.', 'ct-startup' ); ?>
+                    <?php esc_html_e( 'Vestibulum ullamcorper, odio sed rhoncus imperdiet, enim elit sollicitudin orci, eget dictum leo minec lectus. Nam commodo turpis id lectus scelerisque vulputate.', 'ct-tailwind-theme' ); ?>
                 </p>
                 <!-- /wp:paragraph -->
             </div>
@@ -98,13 +99,13 @@
                 <!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"fontSize":"20px","fontWeight":"700","fontStyle":"normal"},"spacing":{"margin":{"top":"16px","bottom":"8px"}}},"textColor":"black"} -->
                 <h3 class="wp-block-heading has-text-align-center has-black-color has-text-color"
                     style="margin-top:16px;margin-bottom:8px;font-size:20px;font-style:normal;font-weight:700">
-                    <?php esc_html_e( 'Integrations', 'ct-startup' ); ?>
+                    <?php esc_html_e( 'Integrations', 'ct-tailwind-theme' ); ?>
                 </h3>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"14px"},"spacing":{"margin":{"bottom":"0"}}},"textColor":"gray"} -->
                 <p class="has-text-align-center has-gray-color has-text-color" style="margin-bottom:0;font-size:14px"><?php esc_html_e( 'Vestibulum ullamcorper, odio sed rhoncus imperdiet, enim elit sollicitudin orci, eget dictum leo mi
-                    nec lectus. Nam commodo turpis id lectus scelerisque vulputate.', 'ct-startup' ); ?>
+                    nec lectus. Nam commodo turpis id lectus scelerisque vulputate.', 'ct-tailwind-theme' ); ?>
                 </p>
                 <!-- /wp:paragraph -->
             </div>
