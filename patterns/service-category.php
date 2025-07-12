@@ -103,8 +103,8 @@
                             <!-- wp:image {"id":6110,"width":"70px","sizeSlug":"full","linkDestination":"none","align":"center","style":{"spacing":{"margin":{"right":"0px","left":"0px"}},"border":{"radius":"100px","width":"0px","style":"none"}}} -->
                             <figure class="wp-block-image aligncenter size-full is-resized has-custom-border"
                                 style="margin-right:0px;margin-left:0px"><img
-                                    src="<?php echo  get_stylesheet_directory_uri() . '/images/icon2.png'; ?>icon2.png"
-                                    alt="" class="wp-image-6110"
+                                    src="<?php echo  get_stylesheet_directory_uri() . '/images/icon2.png'; ?>" alt=""
+                                    class="wp-image-6110"
                                     style="border-style:none;border-width:0px;border-radius:100px;width:70px" />
                             </figure>
                             <!-- /wp:image -->
