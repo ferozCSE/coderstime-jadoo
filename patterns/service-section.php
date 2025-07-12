@@ -208,7 +208,7 @@
                         <!-- wp:heading {"textAlign":"center","level":3,"align":"full","className":"image-section","style":{"elements":{"link":{"color":{"text":"#32b745"}}},"spacing":{"margin":{"top":"1rem","bottom":"0"}},"color":{"text":"#32b745"},"typography":{"fontSize":"18px"}}} -->
                         <h3 class="wp-block-heading alignfull has-text-align-center image-section has-text-color has-link-color"
                             style="color:#32b745;margin-top:1rem;margin-bottom:0;font-size:18px">
-                            <strong>><?php esc_html_e( 'Graphic Design', 'aamira' ); ?></strong>
+                            <strong><?php esc_html_e( 'Graphic Design', 'aamira' ); ?></strong>
                         </h3>
                         <!-- /wp:heading -->
 

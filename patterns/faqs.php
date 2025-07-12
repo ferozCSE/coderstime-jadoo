@@ -16,8 +16,8 @@
 <div class="wp-block-group alignfull has-black-background-color has-background">
     <!-- wp:group {"layout":{"type":"constrained","contentSize":"1150px","wideSize":"1380px"}} -->
     <div class="wp-block-group">
-        <!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","bottom":"15px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
-        <div class="wp-block-group" style="padding-top:40px;padding-bottom:15px">
+        <!-- wp:group {"style":{"spacing":{"padding":{"top":"40px","bottom":"40px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+        <div class="wp-block-group" style="padding-top:40px;padding-bottom:40px">
             <!-- wp:paragraph {"align":"left","style":{"color":{"text":"#32b745"},"elements":{"link":{"color":{"text":"#32b745"}}},"layout":{"selfStretch":"fit","flexSize":null}},"fontSize":"x-large"} -->
             <p class="has-text-align-left has-text-color has-link-color has-x-large-font-size" style="color:#32b745">
                 Find Answers</p>
