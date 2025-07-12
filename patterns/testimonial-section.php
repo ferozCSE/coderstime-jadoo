@@ -59,7 +59,7 @@
                                         <!-- wp:image {"id":6142,"width":"90px","height":"90px","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center","className":"simpletestimonial"} -->
                                         <figure
                                             class="wp-block-image aligncenter size-full is-resized simpletestimonial">
-                                            <img src="<?php echo  get_stylesheet_directory_uri() . '/images/testi-author1.png'; ?>"
+                                            <img src="<?php echo  get_stylesheet_directory_uri() . '/images/testi-author1.jpg'; ?>"
                                                 alt="" class="wp-image-6142"
                                                 style="object-fit:cover;width:90px;height:90px" />
                                         </figure>
@@ -105,7 +105,7 @@
                                         <!-- wp:image {"id":6143,"width":"90px","height":"90px","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center","className":"simpletestimonial"} -->
                                         <figure
                                             class="wp-block-image aligncenter size-full is-resized simpletestimonial">
-                                            <img src="<?php echo  get_stylesheet_directory_uri() . '/images/testi-author2.png'; ?>"
+                                            <img src="<?php echo  get_stylesheet_directory_uri() . '/images/testi-author2.jpg'; ?>"
                                                 alt="" class="wp-image-6143"
                                                 style="object-fit:cover;width:90px;height:90px" />
                                         </figure>
@@ -152,7 +152,7 @@
                                         <!-- wp:image {"id":6144,"width":"90px","height":"90px","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center","className":"simpletestimonial"} -->
                                         <figure
                                             class="wp-block-image aligncenter size-full is-resized simpletestimonial">
-                                            <img src="<?php echo  get_stylesheet_directory_uri() . '/images/testi-author3.png'; ?>"
+                                            <img src="<?php echo  get_stylesheet_directory_uri() . '/images/testi-author3.jpg'; ?>"
                                                 alt="" class="wp-image-6144"
                                                 style="object-fit:cover;width:90px;height:90px" />
                                         </figure>

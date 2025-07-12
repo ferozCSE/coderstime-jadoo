@@ -21,7 +21,7 @@
         <div class="wp-block-group">
             <!-- wp:image {"id":5281,"width":"166px","height":"auto","sizeSlug":"full","linkDestination":"none","align":"right","className":"decorative-image"} -->
             <figure class="wp-block-image alignright size-full is-resized decorative-image"><img
-                    src="<?php echo  get_stylesheet_directory_uri() . '/images/shape-1.png'; ?>" alt=""
+                    src="<?php echo  get_stylesheet_directory_uri() . '/images/shape.png'; ?>" alt=""
                     class="wp-image-5281" style="width:166px;height:auto" /></figure>
             <!-- /wp:image -->
         </div>

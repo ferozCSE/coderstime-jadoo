@@ -163,7 +163,7 @@
                                 style="border-radius:0px">
                                 <!-- wp:image {"id":6166,"width":"435px","height":"200px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"0.9rem"}}} -->
                                 <figure class="wp-block-image size-full is-resized has-custom-border"><img
-                                        src="<?php echo  get_stylesheet_directory_uri() . '/images/booking-img2'; ?>"
+                                        src="<?php echo  get_stylesheet_directory_uri() . '/images/booking-img2.jpg'; ?>"
                                         alt="" class="wp-image-6166"
                                         style="border-radius:0.9rem;object-fit:cover;width:435px;height:200px" />
                                 </figure>

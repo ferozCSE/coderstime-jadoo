@@ -17,10 +17,10 @@
         class="wp-block-cover__background has-background-dim-100 has-background-dim"
         style="background-color:#f5f7fa"></span>
     <div class="wp-block-cover__inner-container">
-        <!-- wp:cover {"url":"http://localhost/wp-content/uploads/2025/06/hero-bg-4.png","id":5370,"dimRatio":0,"overlayColor":"base","isUserOverlayColor":true,"focalPoint":{"x":0.25,"y":0.5},"minHeight":804,"minHeightUnit":"px","contentPosition":"center center","isDark":false,"sizeSlug":"full","align":"center","layout":{"type":"default"}} -->
+        <!-- wp:cover {"url":"http://localhost/wp-content/uploads/2025/06/hero-bg.png","id":5370,"dimRatio":0,"overlayColor":"base","isUserOverlayColor":true,"focalPoint":{"x":0.25,"y":0.5},"minHeight":804,"minHeightUnit":"px","contentPosition":"center center","isDark":false,"sizeSlug":"full","align":"center","layout":{"type":"default"}} -->
         <div class="wp-block-cover aligncenter is-light" style="min-height:804px"><img
                 class="wp-block-cover__image-background wp-image-5370 size-full" alt=""
-                src="<?php echo  get_stylesheet_directory_uri() . '/images/hero-bg-4.png'; ?>"
+                src="<?php echo  get_stylesheet_directory_uri() . '/images/hero-bg.png'; ?>"
                 style="object-position:25% 50%" data-object-fit="cover" data-object-position="25% 50%" /><span
                 aria-hidden="true"
                 class="wp-block-cover__background has-base-background-color has-background-dim-0 has-background-dim"></span>
