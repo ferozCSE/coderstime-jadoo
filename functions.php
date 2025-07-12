@@ -71,20 +71,3 @@ if ( ! function_exists( 'coderstime_jadoo_block_styles' ) ) :
 	}
 endif;
 add_action( 'init', 'coderstime_jadoo_block_styles' );
-
-// after setup theme
-function coderstime_jadoo_after_setup_theme() {
-    // Basic theme supports
-    add_theme_support('title-tag');
-    add_theme_support('post-thumbnails');
-    add_theme_support('align-wide');
-
-    // Editor styles
-    add_theme_support('editor-styles');
-    
-    // Only load if the file exists
-    if (file_exists(get_template_directory() . '/editor_style.css')) {
-        add_editor_style('editor_style.css');
-    }
-}
-add_action('after_setup_theme', 'coderstime_jadoo_after_setup_theme');

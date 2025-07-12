@@ -1,49 +1,51 @@
 <?php
 /**
  * Title: Header
- * Slug: coderstime-jadoo/header
+ * Slug: aamira/header
  * Categories: header
  * Block Types: core/template-part/header
  * Description: Site header with site title and navigation.
  *
  * @package WordPress
- * @subpackage Coderstime Jadoo
- * @since Coderstime Jadoo 1.0
+ * @subpackage aamira
+ * @since aamira 1.0
  */
 
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"2rem","bottom":"2rem"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="padding-top:2rem;padding-bottom:2rem">
-    <!-- wp:group {"align":"full","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-    <div class="wp-block-group alignwide">
-        <!-- wp:site-logo {"width":63} /-->
+<!-- wp:group {"metadata":{"categories":["header"],"patternName":"coderstime-jadoo/header","name":"Header"},"className":"alignfull","style":{"spacing":{"padding":{"top":"2rem","bottom":"2rem","right":"2rem","left":"2rem"}},"color":{"background":"#000000"}},"layout":{"type":"constrained","contentSize":"1150px","wideSize":"1380px"}} -->
+<div class="wp-block-group alignfull has-background"
+    style="background-color:#000000;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
+    <!-- wp:group {"align":"full","className":"alignwide","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+    <div class="wp-block-group alignfull alignwide">
+        <!-- wp:site-logo {"width":96,"className":"is-style-default","style":{"layout":{"selfStretch":"fit","flexSize":null},"spacing":{"padding":{"left":"2rem"}}}} /-->
 
-        <!-- wp:group {"layout":{"type":"constrained","justifyContent":"right"}} -->
+        <!-- wp:group {"layout":{"type":"constrained","justifyContent":"right","contentSize":"1150px","wideSize":"1380px"}} -->
         <div class="wp-block-group">
-            <!-- wp:navigation {"ref":4212,"full":"wide","className":"navber-menu","layout":{"type":"flex","justifyContent":"center"}} /-->
+            <!-- wp:navigation {"ref":4212,"textColor":"base","className":"navber-menu","fontSize":"medium","layout":{"type":"flex","justifyContent":"center"}} /-->
         </div>
         <!-- /wp:group -->
 
         <!-- wp:buttons -->
         <div class="wp-block-buttons">
-            <!-- wp:button {"className":"is-style-outline signup-button","style":{"spacing":{"padding":{"left":"var:preset|spacing|40","right":"var:preset|spacing|40","top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}},"color":{"text":"#356dd7"},"elements":{"link":{"color":{"text":"#356dd7"}}},"border":{"radius":"5px"}}} -->
-            <div class="wp-block-button is-style-outline signup-button"><a
-                    class="wp-block-button__link has-text-color has-link-color wp-element-button"
-                    style="border-radius:5px;color:#356dd7;padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--40)"><?php esc_html_e( 'Sign
-                    Up', 'coderstime-jadoo' ); ?></a></div>
+            <!-- wp:button {"textColor":"base","className":"signup-button is-style-outline","style":{"spacing":{"padding":{"left":"var:preset|spacing|40","right":"var:preset|spacing|40","top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"border":{"radius":"10px"}},"fontSize":"medium"} -->
+            <div class="wp-block-button signup-button is-style-outline"><a
+                    class="wp-block-button__link has-base-color has-text-color has-link-color has-medium-font-size has-custom-font-size wp-element-button"
+                    style="border-radius:10px;padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--40)"><?php esc_html_e( 'Sign
+                    Up', 'aamira' ); ?></a></div>
             <!-- /wp:button -->
         </div>
         <!-- /wp:buttons -->
 
-        <!-- wp:necessary-block/navigation-block {"menuItems":[{"label":"","link":"#"},{"label":"","link":"#"},{"label":"EN","link":"#","submenuItems":[{"label":"EN","link":""},{"label":"BN"}]}],"className":"nav-droupdown"} -->
-        <div class="wp-block-necessary-block-navigation-block nav-dropdown">
+        <!-- wp:necessary-block/navigation-block {"menuItems":[{"label":"","link":"#"},{"label":"","link":"#"},{"label":"EN","link":"#","submenuItems":[{"label":"EN","link":""},{"label":"BN"}]}],"className":"nav-dropdown","style":{"spacing":{"padding":{"left":"0rem","right":"2rem"}}},"fontSize":"medium"} -->
+        <div class="wp-block-necessary-block-navigation-block nav-dropdown has-medium-font-size"
+            style="padding-right:2rem;padding-left:0rem">
             <div class="dynamic-menu">
+                <div class="menu-item-container"><a href="#" class="menu-item"></a></div>
+                <div class="menu-item-container"><a href="#" class="menu-item"></a></div>
                 <div class="menu-item-container"><a href="#"
-                        class="menu-item"><?php esc_html_e( 'EN', 'coderstime-jadoo' ); ?><span
-                            class="dropdown-icon">▼</span></a>
-                    <div class="submenu"><a href=""
-                            class="submenu-item"><?php esc_html_e( 'EN', 'coderstime-jadoo' ); ?></a><a
-                            class="submenu-item"><?php esc_html_e( 'BN', 'coderstime-jadoo' ); ?></a></div>
+                        class="menu-item"><?php esc_html_e( 'EN', 'aamira' ); ?><span class="dropdown-icon">▼</span></a>
+                    <div class="submenu"><a href="" class="submenu-item"><?php esc_html_e( 'EN', 'aamira' ); ?></a><a
+                            class="submenu-item"><?php esc_html_e( 'EN', 'aamira' ); ?></a></div>
                 </div>
             </div>
         </div>
